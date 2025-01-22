@@ -1,0 +1,80 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--color-primary);
+}
+
+.card {
+  background-color: var(--color-quaternary);
+  border-radius: 2rem;
+  width: 38.4rem;
+  padding: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  box-shadow: 8px 8px #000000;
+}
+
+.card .blog-image {
+  border-radius: 1rem;
+}
+
+.card .content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.card .content-container .tag {
+  font-size: var(--font-size-medium);
+  font-weight: 700;
+  padding: 0.4rem 1.2rem;
+  background-color: var(--color-primary);
+  width: fit-content;
+  border-radius: 0.4rem;
+  color: var(--color-secondary);
+}
+
+.card .content-container .publish-date {
+  color: var(--color-secondary);
+  font-weight: 500;
+  font-size: var(--font-size-small);
+}
+
+.card .content-container .title {
+  color: var(--color-secondary);
+  font-weight: 800;
+  font-size: var(--font-size-large);
+}
+
+.card .content-container .title:hover{
+    color: var(--color-primary);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.card .content-container .description {
+  color: var(--color-tertiary);
+  font-weight: 500;
+  font-size: var(--font-size-medium);
+}
+
+.card .author-container {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.card .author-container .author-image {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.card .author-container .author-name {
+  color: var(--color-secondary);
+  font-size: var(--font-size-small);
+  font-weight: 800;
+}
