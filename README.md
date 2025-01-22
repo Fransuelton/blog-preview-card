@@ -16,8 +16,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://your-solution-url.com)
-- Live Site URL: [](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/blog-preview-card-with-html-and-css-qJF7zq071Q)
+- Live Site URL: [GitHub Pages](https://fransuelton.github.io/blog-preview-card/)
 
 ## My process
 
@@ -29,5 +29,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.fransuelton.dev)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/fransuelton)
+- Website - [Portfolio](https://www.fransuelton.dev)
+- Frontend Mentor - [@Fransuelton](https://www.frontendmentor.io/profile/fransuelton)
